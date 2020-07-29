@@ -19,6 +19,8 @@ while counter < entries do
 
   if counter < color_array.count
       print ", "
+  else
+      print "\n"
   end
 
 end
