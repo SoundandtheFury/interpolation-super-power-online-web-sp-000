@@ -8,7 +8,7 @@ entries = color_array.count
 while counter < entries do
 
   printed_color = color_array[counter]
-  puts printed_color(1)
+  puts printed_color[1]
   puts printed_color
   puts "the counter is at #{counter}"
   puts "the array has #{color_array.count} entries"
