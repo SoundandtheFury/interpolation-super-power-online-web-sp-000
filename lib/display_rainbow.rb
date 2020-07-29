@@ -8,7 +8,8 @@ entries = color_array.count
 while counter < entries do
 
   printed_color = color_array[counter]
-  print "#{printed_color[0].upcase}: #{printed_color}"
+  printed_color_letter = printed_color[0]
+  print "#{printed_color_letter.upcase}: #{printed_color}"
 
   #puts printed_color[0].upcase
   #puts printed_color
