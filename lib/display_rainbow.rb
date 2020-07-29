@@ -1,6 +1,6 @@
 # Write your #display_rainbow method here
 
-def display_rainbow(color_array=["hot pink","horse"])
+def display_rainbow(color_array)
 
 counter = 0
 entries = color_array.count
