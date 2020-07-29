@@ -9,6 +9,7 @@ while counter < entries do
 
   printed_color = color_array[counter]
   print "#{printed_color[0].upcase}: printed_color"
+  print ", "
 
   #puts printed_color[0].upcase
   #puts printed_color
