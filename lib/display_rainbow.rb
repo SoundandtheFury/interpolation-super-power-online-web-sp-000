@@ -5,7 +5,7 @@ def display_rainbow(color_array=["hot pink","horse"])
 counter = 0
 entries = color_array.count
 
-while counter <= entries do
+while counter < entries do
 
   puts "the counter is at #{counter}"
   puts "the array has #{color_array.count} entries"
